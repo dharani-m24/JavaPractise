@@ -1,5 +1,7 @@
 package loopingStatement;
 
+import java.util.Arrays;
+
 public class ForLoopDemo {
 
     public static void main(String[] args) {
@@ -22,7 +24,7 @@ public class ForLoopDemo {
 
         //
 
-        for(int i=1; )
+
 
     }
 }
