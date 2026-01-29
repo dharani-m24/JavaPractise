@@ -10,9 +10,9 @@ public class SortingArray {
 
         int[] a={400,900,300,500,800};
 
-        System.out.println("before sorting");
+        System.out.println("before sorting"+ Arrays.toString(a));
 
-        System.out.println(Arrays.toString(a));
+        System.out.println();
 
         System.out.println("After sorting");
 
