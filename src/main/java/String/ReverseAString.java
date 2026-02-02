@@ -1,6 +1,12 @@
 package String;
 
+import java.util.Scanner;
+
 public class ReverseAString {
+
+    void display1(){
+
+    }
 
     public static void main(String[] args) {
 
@@ -18,16 +24,28 @@ public class ReverseAString {
 
         //Approach2- without using string methods
 
-        char[] s1=s.toCharArray();
+        /*char[] s1=s.toCharArray();
 
         for(int i=s1.length-1;i>=0;i--){
              rev=rev+s1[i];
 
         }
 
-        System.out.println(rev);
+        System.out.println(rev);*/
 
-        //Approach3 // using direct inbuild methods
+        //Approach3 // using direct inbuild methods-StringBuffer
+
+    StringBuffer sb=new StringBuffer("selenium");
+
+        System.out.println("using string buffer:"+sb.reverse());
+
+        //approach4 // using direct inbuild methods-stringBuilder
+
+        StringBuilder sd=new StringBuilder("selenium");
+
+        sd.reverse();
+
+        System.out.println("using string builder:"+sd);
 
 
 
