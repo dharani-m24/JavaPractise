@@ -11,8 +11,8 @@ public class ConstructorDemo {
 
     }
     ConstructorDemo(int a, int b){
-       this.x=a;
-        this.y=b;
+       x=a;
+       y=b;
     }
 
 
